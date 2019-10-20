@@ -1,0 +1,24 @@
+2019-10-15T09:35:06+00:00 CRITICAL Uncaught Error: Call to undefined function dynamicsidebar() in C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi-child\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\Divi-Theme\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\Divi-Theme\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\Divi-Theme\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi\page.php(74): get_footer()
+#4 C:\xampp\htdocs\Divi-Theme\wp-includes\template-loader.php(78): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Divi-Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Divi-Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi-child\footer.php on line 48
+
+2019-10-15T09:35:19+00:00 CRITICAL Uncaught Error: Call to undefined function dynamicSidebar() in C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi-child\footer.php:48
+Stack trace:
+#0 C:\xampp\htdocs\Divi-Theme\wp-includes\template.php(722): require_once()
+#1 C:\xampp\htdocs\Divi-Theme\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#2 C:\xampp\htdocs\Divi-Theme\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi\page.php(74): get_footer()
+#4 C:\xampp\htdocs\Divi-Theme\wp-includes\template-loader.php(78): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Divi-Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Divi-Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi-child\footer.php on line 48
+

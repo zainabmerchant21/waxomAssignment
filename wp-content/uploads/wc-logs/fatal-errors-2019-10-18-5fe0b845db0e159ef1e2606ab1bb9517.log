@@ -1,0 +1,28 @@
+2019-10-18T14:36:48+00:00 CRITICAL syntax error, unexpected ''/css/custom.css'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi-child\functions.php on line 5
+
+2019-10-18T15:41:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_stylesheet_directory1_uri() in C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi-child\functions.php:6
+Stack trace:
+#0 C:\xampp\htdocs\Divi-Theme\wp-includes\class-wp-hook.php(286): load_style('')
+#1 C:\xampp\htdocs\Divi-Theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Divi-Theme\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Divi-Theme\wp-includes\script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\Divi-Theme\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 C:\xampp\htdocs\Divi-Theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\Divi-Theme\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Divi-Theme\wp-includes\general-template.php(2745): do_action('wp_head')
+#8 C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi\header.php(27): wp_head()
+#9 C:\xampp\htdocs\Divi-Theme\wp-includes\templa in C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi-child\functions.php on line 6
+
+2019-10-18T15:42:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_stylesheet_directory1_uri() in C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi-child\functions.php:6
+Stack trace:
+#0 C:\xampp\htdocs\Divi-Theme\wp-includes\class-wp-hook.php(286): load_style('')
+#1 C:\xampp\htdocs\Divi-Theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Divi-Theme\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Divi-Theme\wp-includes\script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\Divi-Theme\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 C:\xampp\htdocs\Divi-Theme\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\Divi-Theme\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\Divi-Theme\wp-includes\general-template.php(2745): do_action('wp_head')
+#8 C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi\header.php(27): wp_head()
+#9 C:\xampp\htdocs\Divi-Theme\wp-includes\templa in C:\xampp\htdocs\Divi-Theme\wp-content\themes\Divi-child\functions.php on line 6
+
